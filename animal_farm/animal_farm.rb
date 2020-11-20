@@ -37,4 +37,32 @@ class AnimalFarm
       end
   end
 
+  def sunrise
+    @animals.each do |animal|
+      animal.wake_up!
+    end
+  end
+
+  def sunset
+    @animals.each do |animal|
+      animal.go_to_sleep
+    end
+  end
+
+  def all_sleep?
+    if @animals.all(sleeping)
+      true
+    end
+  end
+
+  def number_of(type_of_animal)
+    counter = 0
+    @animals.each do |animal|
+      if animal.kind_of? == type_of_animal
+        counter++
+      end
+    end
+    return counter
+  end
+
 end
