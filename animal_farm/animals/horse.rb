@@ -1,4 +1,4 @@
-require '.modules/runs', '.modules/sleeps'
+require '../modules/runs', '../modules/sleeps'
 
 class Horse
 
