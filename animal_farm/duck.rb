@@ -1,4 +1,4 @@
-require "./flies"
+require ".modules/flies"
 
 class Duck
 
