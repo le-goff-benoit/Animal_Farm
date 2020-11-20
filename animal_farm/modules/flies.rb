@@ -7,4 +7,5 @@ module Flies
   def land!
     @flying = false
   end
+  
 end

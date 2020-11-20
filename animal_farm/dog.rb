@@ -1,4 +1,4 @@
-require '.modules/runs'
+require '.modules/runs', '.modules/sleeps'
 
 class Dog
 
